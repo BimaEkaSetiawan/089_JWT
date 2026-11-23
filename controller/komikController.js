@@ -7,7 +7,7 @@ async function getAllKomik(req, res) {
     } catch (err) {
         console.error('Error fetching komik:', err.message);
         res.status(500).json({ error: 'Failed to fetch komik' });
-    }   
+    }
 }
 
 async function getKomikById(req, res) {
